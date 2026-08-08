@@ -1,0 +1,12 @@
+Item,Description,Quantity,Approx Unit Cost (USD),Approx Total (USD),Supplier/Notes
+ESP32 Dev Board,ESP32-WROOM-32 development board,1,5.00,5.00,Any generic ESP32 dev board with USB-UART bridge
+Microwave Doppler Radar Module,X-band CW radar with analog IF output (e.g. HB100+IF amp or CDM324),1,6.00,6.00,Fill in exact model/supplier used
+Breadboard,Half-size solderless breadboard,1,2.00,2.00,
+Jumper Wires,Male-Male and Male-Female assorted,10,0.10,1.00,
+USB Cable,USB-A to Micro-USB or USB-C (per board),1,2.00,2.00,
+Decoupling Capacitor,100nF ceramic,2,0.05,0.10,
+Bulk Capacitor,10uF electrolytic/tantalum,1,0.10,0.10,
+Voltage Regulator (optional),AMS1117-5.0 or LM7805,1,0.50,0.50,Only needed if radar requires 5V not available from USB rail directly
+Enclosure (optional),3D-printed or off-the-shelf plastic box,1,3.00,3.00,See hardware/Enclosure
+,,,,,
+,,,Total (approx),19.70,Excludes shipping/taxes

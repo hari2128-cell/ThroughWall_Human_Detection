@@ -1,0 +1,40 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Arduino
+*.hex
+*.elf
+*.bin
+
+# MATLAB
+*.asv
+*.m~
+slprj/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Large / generated data (keep folder structure, ignore contents)
+datasets/Raw/*
+datasets/Processed/*
+datasets/Sample_Recordings/*
+!datasets/**/.gitkeep
+
+results/Screenshots/*
+results/Heatmaps/*
+results/Graphs/*
+!results/**/.gitkeep
