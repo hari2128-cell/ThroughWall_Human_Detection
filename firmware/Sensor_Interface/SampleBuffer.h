@@ -6,7 +6,7 @@
  * Communication layer.
  */
 
-#ifndef SAMPLE_BUF_H
+#ifndef SAMPLE_BUFFER_H
 #define SAMPLE_BUFFER_H
 
 #include <Arduino.h>
