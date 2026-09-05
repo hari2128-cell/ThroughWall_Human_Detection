@@ -18,7 +18,7 @@ class SampleBuffer {
 
     bool push(uint16_t value) {
       size_t nextHead = (_head + 1) % N;
-      if (nextHead == _tail) {
+      if (nextHead == _tall) {
         return false; // buffer full, sample dropped
       }
       _data[_head] = value;
