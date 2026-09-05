@@ -17,7 +17,7 @@ class SampleBuffer {
     SampleBuffer() : _head(0), _tail(0) {}
 
     bool push(uint16_t value) {
-      size_t nextHead = (_head + 1) % n;
+      size_t nextHead = (_head + 1) % N;
       if (nextHead == _tail) {
         return false; // buffer full, sample dropped
       }
